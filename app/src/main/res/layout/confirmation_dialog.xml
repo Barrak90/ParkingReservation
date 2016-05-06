@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/checkmark32"
+        android:scaleType="centerInside"
+        android:padding="@dimen/margin_35"
+        android:background="@color/blue_sky_transparent"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great!"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="@dimen/margin_25"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="18sp"
+        android:gravity="center_horizontal|top"
+        android:padding="@dimen/margin_25"
+        android:text="@string/confirmation_message"/>
+
+    <TextView
+        android:id="@+id/confirmation_check_bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Check"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/margin_25"
+
+        android:background="@drawable/reserve_btn_bg"/>
+
+    <TextView
+        android:id="@+id/confirmation_cancel_bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Cancel"
+        android:padding="@dimen/margin_25"
+        android:textColor="@color/blue_sky_transparent"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>
